@@ -73,3 +73,19 @@ let nombres: ListaNombres = [
  * ListaNombres es el apodo de:
  * string[]
  */
+
+
+
+// REPASO 1 
+type categoria = string | string[];
+
+let carros: categoria = ["Deportivos", "Super - Deportivos", "Camionetas", "Normal"];
+let carro: categoria = "Deportivo"
+
+
+type Usuario = {
+    nombre: string
+    edad: number
+}
+
+let user: Usuario = {nombre: "Samuel", edad: 19}

@@ -22,8 +22,7 @@ let nombres = [
     "Juan",
     "Pedro"
 ];
-/*
- * ListaNombres es el apodo de:
- * string[]
- */ 
+let carros = ["Deportivos", "Super - Deportivos", "Camionetas", "Normal"];
+let carro = "Deportivo";
+let user = { nombre: "Samuel", edad: 19 };
 //# sourceMappingURL=type-aliases.js.map
