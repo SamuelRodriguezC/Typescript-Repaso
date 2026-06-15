@@ -1,5 +1,19 @@
-let username: Array<number | string> = [4, 63, "string"];  
-console.log(username)
+// Intersection types 
+interface Usuario {
+    nombre: string,
+    email: string,
+    password: string,
+}
 
+interface Persona {
+    edad: number,
+    nacionalidad: string,
+}
 
-const myarray: Array<number | boolean | string> = [48, true, "22"];
+type ciudadano = Usuario & Persona;
+
+let Samuelo: ciudadano = {nombre: "Samuel", email: "samuelo@gmail.com", password: "******", edad: 45, nacionalidad: "Colombiano"}  
+
+// Union types
+type ejemplo = string | string[]
+let variable: ejemplo = ["hola", "jaja"]
