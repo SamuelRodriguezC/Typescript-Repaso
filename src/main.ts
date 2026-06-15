@@ -1,19 +1,26 @@
-// Intersection types 
-interface Usuario {
-    nombre: string,
-    email: string,
-    password: string,
+// Extensión de interfaces 
+
+
+interface Cuadrupedos {
+    readonly id: number; 
+    name: string;
+    entorno: string
 }
 
-interface Persona {
-    edad: number,
-    nacionalidad: string,
+interface Perro extends Cuadrupedos {
+    raza: string,
+    color?: string,
 }
 
-type ciudadano = Usuario & Persona;
+const max: Perro = {id: 15, name: "MAX", entorno: "Hogar", raza: "shnauzer"}
 
-let Samuelo: ciudadano = {nombre: "Samuel", email: "samuelo@gmail.com", password: "******", edad: 45, nacionalidad: "Colombiano"}  
 
-// Union types
-type ejemplo = string | string[]
-let variable: ejemplo = ["hola", "jaja"]
+
+interface Nose {
+    [atributo: string]: number
+}
+
+const nosep: Nose = {
+     edad: 45,
+     velociadad: 50,
+}
