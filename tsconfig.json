@@ -1,6 +1,7 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
+    "experimentalDecorators": true,
     // File Layout
     "rootDir": "./src", // Donde va a buscar los archivos ts? 
     "outDir": "./dist", // Donde pondrá los acrhivos compilados js? 
