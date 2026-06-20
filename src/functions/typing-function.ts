@@ -12,7 +12,6 @@ const sumar: Suma = (a, b) => {
 console.log(sumar(4, 6)); // 10
 
 
-
 // TIPOS GENERICOS 
 function firstElement<Type>(arr: Type[]): Type | undefined { 
     /* <Type>
