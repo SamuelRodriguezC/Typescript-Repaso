@@ -29,6 +29,7 @@ function Logger(constructor: Function) {
 
 
 
+
 // ========================================
 // 2. PROPERTY DECORATOR
 // Se ejecuta cuando TS encuentra una propiedad
